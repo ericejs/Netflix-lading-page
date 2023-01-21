@@ -1,3 +1,3 @@
-Landing page criada com intuito de aprendizado.
+20/01/2023 - Landing page criada com intuito de aprendizado.
 
-inseri uma função no javascript para reprodução e pausa no trailer do filme.
+21/01/2023 - Inseri uma função em javascript para reprodução e pausa no trailer do filme.
