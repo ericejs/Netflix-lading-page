@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">    <title> Netflix Landing</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="assets/img/logo.png"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tv Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latests</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="bi bi-search"></i>
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="assets/img/bg.jpg" class="bg">
+
+        <div class="content">
+            <img src="assets/img/name.png" class="movieTitle">
+            <h4>
+                <span>1999</span>
+                <span><i> 12+ </i></span>
+                <span>2h 20min</span>
+                <span>Action</span>
+            </h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tempora? Praesentium ab harum, doloribus pariatur nam eligendi et laborum.
+            </p>
+
+            <div class="buttons">
+                <a href="#"><i class="bi bi-play-circle" aria-hidden="true"></i> Play </a>
+                <a href="#"><i class="bi bi-plus" aria-hidden="true"></i> My List </a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo()"><img src="assets/img/play.png">Wath trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="assets/trailer.mp4" controls="true"></video>
+        <img src="assets/img/close.png" class="close" onclick="toggleVideo()">
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
